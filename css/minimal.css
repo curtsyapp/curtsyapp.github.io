@@ -3,7 +3,7 @@ body { font-family: 'Roboto', sans-serif; color: #2D343B; margin: 0; -webkit-fon
 * { box-sizing: border-box; }
 
 .container { max-width: 414px; width: 100%; margin: auto auto; background: #fff; }
-.container img { width: 100%; height: auto; }
+.container > img { width: 100%; height: auto; }
 
 .content { -moz-transition: all 0.2s; -o-transition: all 0.2s; -webkit-transition: all 0.2s; transition: all 0.2s; }
 @media (max-width: 454px) { .content { padding: 0 20px; } }
@@ -13,6 +13,26 @@ h1, h4 { font-weight: 600; }
 h4 { text-transform: uppercase; font-size: .8rem; letter-spacing: 1px; color: #7C878E; margin-top: 30px; margin-bottom: 20px; }
 
 h1 { font-size: 1.1rem; margin-bottom: 0; }
+h2 { font-size: 1.7rem; margin-bottom: 0; }
+header p { font-size: 1.1rem; }
 
 p { font-size: .95rem; line-height: 1.4; margin-top: 8px; margin-bottom: 30px; }
+
+.gif-container {
+    width: 188px;
+    height: 397px;
+    display: block;
+    margin: auto auto;
+    position: relative;
+}
+.gif-container .gif {
+    margin: 2px 4px;
+}
+.gif-container .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
