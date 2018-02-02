@@ -18,6 +18,23 @@ header p { font-size: 1.1rem; }
 
 p { font-size: .95rem; line-height: 1.4; margin-top: 8px; margin-bottom: 30px; }
 
+ul li {
+    margin-bottom: 15px;
+}
+ul {
+    margin-bottom: 30px;
+}
+
+.pricing img {
+    max-width: 100%;
+    height: auto;
+    width: 375px;
+    margin-top: 20px;
+}
+img.pricing-example {
+    width: 336px;
+}
+
 .gif-container {
     width: 188px;
     height: 397px;
