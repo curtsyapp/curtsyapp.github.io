@@ -5,6 +5,11 @@ body { font-family: 'Roboto', sans-serif; color: #2D343B; margin: 0; -webkit-fon
 .container { max-width: 414px; width: 100%; margin: auto auto; background: #fff; }
 .container > img { width: 100%; height: auto; }
 
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
 .content { -moz-transition: all 0.2s; -o-transition: all 0.2s; -webkit-transition: all 0.2s; transition: all 0.2s; }
 @media (max-width: 454px) { .content { padding: 0 20px; } }
 
