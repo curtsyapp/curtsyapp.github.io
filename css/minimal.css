@@ -2,7 +2,7 @@ body { font-family: 'Roboto', sans-serif; color: #2D343B; margin: 0; -webkit-fon
 
 * { box-sizing: border-box; }
 
-.container { max-width: 414px; width: 100%; margin: auto auto; background: #fff; }
+.container { max-width: 414px; width: 100%; margin: auto auto; }
 .container > img { width: 100%; height: auto; }
 
 .content img {
@@ -38,6 +38,7 @@ ul {
 }
 img.pricing-example {
     width: 336px;
+    height: auto;
 }
 
 .gif-container {
@@ -57,4 +58,6 @@ img.pricing-example {
     width: 100%;
     height: 100%;
 }
-
+body {
+    background: gray;
+}
